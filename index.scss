@@ -1,0 +1,21 @@
+$font-stack:    B612, sans-serif;
+$bg-color: #202020;
+$local-green: #008f53;
+$zulu-red: #8f003c;
+
+body {
+    font: 100% $font-stack;
+    background-color: $bg-color;
+}
+
+#wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#time {
+    font-size: 25vh;
+}
